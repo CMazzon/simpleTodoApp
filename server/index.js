@@ -17,5 +17,5 @@ app.get('*', function (request, response) {
 
 
 app.listen(process.env.PORT || 3000, function () {
-  console.log("Rockin' out on port 3000 homie");
+  console.log("listening on port 3000");
 });
